@@ -39,6 +39,12 @@ body::-webkit-scrollbar-thumb{
 }
 
 
+.header-outer{
+    position: sticky;
+    top: 0;
+}
+
+
 
 /*Home area*/
 
@@ -51,4 +57,40 @@ body::-webkit-scrollbar-thumb{
 
 
     
+}
+
+
+.back-to-top-outer{
+    width: 50px;
+    height: 50px;
+    background-color: #1289A7;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 4px;
+    box-shadow: -1px 13px 46px -4px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -1px 13px 46px -4px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 13px 46px -4px rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.back-to-top-outer a{
+    width: 50px;
+    height: 50px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    /*text-decoration: none;*/
+}
+
+
+.fa-solid{
+    color: #fff;
+    font-size: 20px;
+    
+  
 }
