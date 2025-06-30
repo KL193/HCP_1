@@ -17,7 +17,7 @@ html{
 .outer{
     width: 100%;
     height: 500px;
-    border: 1px solid red;
+  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,7 +222,15 @@ body::-webkit-scrollbar-thumb{
 /*Service area*/
 
 .service-outer{
-    min-height: 600px;
-    border: 1px solid red;
-    width: 100%;
+    min-height: 750px;
+    
+    background-image: url("https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg");
+    background-size: cover;
+    background-position: left;
+}
+
+
+.service-container{
+    
+    
 }
