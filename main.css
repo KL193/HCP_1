@@ -232,5 +232,68 @@ body::-webkit-scrollbar-thumb{
 
 .service-container{
     
+    min-height: 750px;
+ 
+}
+
+
+.row{
+    height: 100%;
+}
+
+.service-container-inner{
+    height: 100%;
+   
+   
+}
+
+.service-right-side{
+
+    min-height: 750px; /* Methana min-height  damma nisa thama ganata responsive wenne otherwise no responsive*/
     
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    
+}
+
+
+.right-top{
+    height: 350px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+}
+
+
+.right-bottom-r{
+    height: 350px;
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-bottom-l{
+    height: 350px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.service-title{
+    color: #474787;
+    
+}
+
+.service-text{
+    margin-top: 20px;
+}
+
+
+.right-top:last-child{
+    margin-bottom: 0px;
 }
