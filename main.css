@@ -503,3 +503,52 @@ body::-webkit-scrollbar-thumb{
 .contact-text{
     color: #ecf0f1;
 }
+
+
+/*product area*/
+
+
+.product-outer{
+    width:100%;
+    height:auto; /*content eka anuwa height eka asjust wenwa*/
+    padding :50px 0;
+    border:1px solid red;
+}
+
+.product-title{
+    color: #3498db;
+    text-align: center;
+}
+
+.product-desc{
+   text-align: center;
+   margin-top: 20px;
+    
+}
+
+/*.row-pro{
+    margin-top: 30px;  we can use inline css also for this in row 
+}*/
+
+
+.product-wrapper{
+    /*border: 1px solid greenyellow;*/
+    margin-bottom: 20px;
+}
+
+
+
+.product-inner{
+    width: 100%;
+    height: 200px;
+    
+    /*margin-bottom: 10px;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: -2px 2px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 2px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 19px 0px rgba(0,0,0,0.75);
+
+}
