@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Play:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/*Header area*/
 .navbar-brand img{
     height: 50px;
 }
@@ -42,6 +44,7 @@ body::-webkit-scrollbar-thumb{
 .header-outer{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 
